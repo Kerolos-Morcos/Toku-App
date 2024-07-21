@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:language_learning_app/components/cardInfo_item.dart';
+import 'package:language_learning_app/components/card_info_item.dart';
 import 'package:language_learning_app/models/items.dart';
 
 class PhrasesCard extends StatelessWidget {

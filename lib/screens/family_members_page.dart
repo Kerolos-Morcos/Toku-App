@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:language_learning_app/components/langCard_item.dart';
+import 'package:language_learning_app/components/language_card_item.dart';
 import 'package:language_learning_app/models/items.dart';
 
 class FamilyMembers extends StatelessWidget {
