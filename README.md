@@ -1,6 +1,6 @@
 # language_learning_app
 
-A new Flutter project.
+My fourth Flutter project in my learning process.
 
 ## Getting Started
 
