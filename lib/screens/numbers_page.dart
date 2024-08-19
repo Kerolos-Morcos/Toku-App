@@ -36,42 +36,48 @@ class NumbersPage extends StatelessWidget {
       sound: 'sounds/numbers/number_five_sound.mp3',
     ),
     ItemModel(
-        image: 'assets/images/numbers/number_six.png',
-        enName: 'six',
-        jpName: 'Roku',
-        sound: 'sounds/numbers/number_six_sound.mp3',
-        ),
+      image: 'assets/images/numbers/number_six.png',
+      enName: 'six',
+      jpName: 'Roku',
+      sound: 'sounds/numbers/number_six_sound.mp3',
+    ),
     ItemModel(
-        image: 'assets/images/numbers/number_seven.png',
-        enName: 'seven',
-        jpName: 'Sebun',
-        sound: 'sounds/numbers/number_seven_sound.mp3',
-        ),
+      image: 'assets/images/numbers/number_seven.png',
+      enName: 'seven',
+      jpName: 'Sebun',
+      sound: 'sounds/numbers/number_seven_sound.mp3',
+    ),
     ItemModel(
-        image: 'assets/images/numbers/number_eight.png',
-        enName: 'eight',
-        jpName: 'Hachi',
-        sound: 'sounds/numbers/number_eight_sound.mp3',
-        ),
+      image: 'assets/images/numbers/number_eight.png',
+      enName: 'eight',
+      jpName: 'Hachi',
+      sound: 'sounds/numbers/number_eight_sound.mp3',
+    ),
     ItemModel(
-        image: 'assets/images/numbers/number_nine.png',
-        enName: 'nine',
-        jpName: 'Kyu',
-        sound: 'sounds/numbers/number_nine_sound.mp3',
-        ),
+      image: 'assets/images/numbers/number_nine.png',
+      enName: 'nine',
+      jpName: 'Kyu',
+      sound: 'sounds/numbers/number_nine_sound.mp3',
+    ),
     ItemModel(
-        image: 'assets/images/numbers/number_ten.png',
-        enName: 'ten',
-        jpName: 'Ju',
-        sound: 'sounds/numbers/number_ten_sound.mp3',
-        )
+      image: 'assets/images/numbers/number_ten.png',
+      enName: 'ten',
+      jpName: 'Ju',
+      sound: 'sounds/numbers/number_ten_sound.mp3',
+    )
   ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color(0xff46322B),
-        title: const Text('Numbers'),
+        title: const Text(
+          'Numbers',
+          style: TextStyle(color: Colors.white),
+        ),
+        iconTheme: const IconThemeData(
+          color: Colors.white,
+        ),
       ),
       // Solution (A)
       // body: ListView(
